@@ -1,0 +1,9 @@
+<h2>Finish Registration</h2>
+<p>We'll use your email address to send you sale notifications. We won't give it out. It stays with us. Promise.</p>
+<%= form_for(resource, :as => resource_name, :url => finish_registration(resource_name)) do |f| %>
+
+  <div><%= f.label :email %><br />
+  <%= f.email_field :email %></div>
+
+  <div><%= f.submit "Register" %></div>
+<% end %>

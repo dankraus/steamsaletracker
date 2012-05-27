@@ -1,0 +1,777 @@
+{
+	"auto_complete":
+	{
+		"selected_items":
+		[
+			[
+				"ava",
+				"avatarfull"
+			],
+			[
+				"avat",
+				"avatar_medium"
+			],
+			[
+				"acces",
+				"access_token"
+			],
+			[
+				"relat",
+				"relationships"
+			],
+			[
+				"micr",
+				"microposts"
+			],
+			[
+				"followed",
+				"followed_user"
+			],
+			[
+				"have",
+				"have_link"
+			],
+			[
+				"en",
+				"environment"
+			],
+			[
+				"for",
+				"foreign_key"
+			],
+			[
+				"follow",
+				"follower_id"
+			],
+			[
+				"relati",
+				"relationship"
+			],
+			[
+				"mic",
+				"micropost_content_KeyUp"
+			],
+			[
+				"should",
+				"should_not"
+			],
+			[
+				"create",
+				"create_at"
+			],
+			[
+				"user",
+				"user_id"
+			],
+			[
+				"users",
+				"users_path"
+			],
+			[
+				"U",
+				"users_path"
+			],
+			[
+				"ed",
+				"edit_user_path"
+			],
+			[
+				"btn",
+				"btn-primary"
+			],
+			[
+				"password",
+				"password_confirmation"
+			],
+			[
+				"passwor",
+				"password_confirmation"
+			],
+			[
+				"grava",
+				"gravatar"
+			],
+			[
+				"gra",
+				"gravatar_url"
+			],
+			[
+				"gravat",
+				"gravatar_url"
+			]
+		]
+	},
+	"buffers":
+	[
+		{
+			"file": "app/views/devise/sessions/new.html.erb",
+			"settings":
+			{
+				"buffer_size": 627,
+				"line_ending": "Unix"
+			}
+		},
+		{
+			"file": "app/views/shared/_steam_login.html.erb",
+			"settings":
+			{
+				"buffer_size": 133,
+				"line_ending": "Unix"
+			}
+		},
+		{
+			"file": "config/routes.rb",
+			"settings":
+			{
+				"buffer_size": 1977,
+				"line_ending": "Unix"
+			}
+		},
+		{
+			"file": "app/views/layouts/application.html.erb",
+			"settings":
+			{
+				"buffer_size": 614,
+				"line_ending": "Unix"
+			}
+		},
+		{
+			"file": "app/models/user.rb",
+			"settings":
+			{
+				"buffer_size": 2063,
+				"line_ending": "Unix"
+			}
+		},
+		{
+			"file": "app/controllers/users/omniauth_callbacks_controller.rb",
+			"settings":
+			{
+				"buffer_size": 1437,
+				"line_ending": "Unix",
+				"name": "class Users::OmniauthCallbacksController < Devise:"
+			}
+		},
+		{
+			"file": "app/controllers/users/users_controller.rb",
+			"settings":
+			{
+				"buffer_size": 172,
+				"line_ending": "Unix",
+				"name": "s"
+			}
+		},
+		{
+			"file": "app/views/devise/registrations/confirm_registration.html.erb",
+			"settings":
+			{
+				"buffer_size": 367,
+				"line_ending": "Unix",
+				"name": "s"
+			}
+		},
+		{
+			"file": "app/views/layouts/_header.html.erb",
+			"settings":
+			{
+				"buffer_size": 34,
+				"line_ending": "Unix"
+			}
+		},
+		{
+			"file": "app/views/static_pages/home.html.erb",
+			"settings":
+			{
+				"buffer_size": 9,
+				"line_ending": "Unix"
+			}
+		}
+	],
+	"build_system": "",
+	"command_palette":
+	{
+		"height": 285.0,
+		"selected_items":
+		[
+			[
+				"Package Control: ",
+				"Package Control: Install Package"
+			],
+			[
+				"erb",
+				"Set Syntax: Ruby on Rails"
+			],
+			[
+				"Package ",
+				"Preferences: Browse Packages"
+			]
+		],
+		"width": 449.0
+	},
+	"console":
+	{
+		"height": 139.0
+	},
+	"distraction_free":
+	{
+		"menu_visible": true,
+		"show_minimap": false,
+		"show_open_files": false,
+		"show_tabs": false,
+		"side_bar_visible": false,
+		"status_bar_visible": false
+	},
+	"file_history":
+	[
+		"/home/dan/.rvm/gems/ruby-1.9.3-p125/gems/omniauth-steam-1.0.0/lib/omniauth/strategies/steam.rb",
+		"/home/dan/sites/SteamSaleTracker/Gemfile",
+		"/home/dan/sites/SteamSaleTracker/config/initializers/devise.rb",
+		"/home/dan/sites/SteamSaleTracker/config/initializers/omniauth.rb",
+		"/home/dan/sites/SteamSaleTracker/app/views/devise/registrations/new.html.erb",
+		"/home/dan/sites/SteamSaleTracker/db/migrate/20120524053510_change_email_null_in_users.rb",
+		"/home/dan/sites/SteamSaleTracker/db/migrate/20120524041637_add_steam_data_to_users.rb",
+		"/home/dan/sites/SteamSaleTracker/db/migrate/20120521054430_devise_create_users.rb",
+		"/home/dan/sites/SteamSaleTracker/app/controllers/application_controller.rb",
+		"/home/dan/sites/SteamSaleTracker/app/views/static_pages/home.html.erb",
+		"/steam.rb",
+		"/home/dan/sites/SteamSaleTracker/app/views/layouts/application.html.erb",
+		"/home/dan/.config/sublime-text-2/Packages/User/Default (Linux).sublime-keymap",
+		"/home/dan/.config/sublime-text-2/Packages/User/Package Control.sublime-settings",
+		"/home/dan/.config/sublime-text-2/Packages/Default/Default (Linux).sublime-keymap",
+		"/home/dan/sites/SteamSaleTracker/app/controllers/static_pages_controller.rb",
+		"/home/dan/sites/SteamSaleTracker/config/application.rb",
+		"/home/dan/sites/SteamSaleTracker/app/models/user.rb",
+		"/home/dan/sites/SteamSaleTracker/app/helpers/application_helper.rb",
+		"/home/dan/sites/SteamSaleTracker/app/views/layouts/_header.html.erb",
+		"/home/dan/sites/SteamSaleTracker/app/views/layouts/_footer.html.erb",
+		"/home/dan/sites/SteamSaleTracker/app/views/layouts/_shim.html.erb",
+		"/home/dan/sites/SteamSaleTracker/config/routes.rb",
+		"/home/dan/sites/SteamSaleTracker/config/environments/development.rb",
+		"/home/dan/sites/sample_app/config/application.rb",
+		"/home/dan/sites/sample_app/app/models/user.rb",
+		"/home/dan/sites/sample_app/app/controllers/relationships_controller.rb",
+		"/home/dan/sites/sample_app/spec/models/user_spec.rb",
+		"/home/dan/sites/sample_app/app/controllers/static_pages_controller.rb",
+		"/home/dan/sites/sample_app/spec/models/micropost_spec.rb",
+		"/home/dan/sites/sample_app/app/views/users/_unfollow.html.erb",
+		"/home/dan/sites/sample_app/app/views/users/_follow.html.erb",
+		"/home/dan/sites/sample_app/spec/requests/user_pages_spec.rb",
+		"/home/dan/sites/sample_app/spec/requests/authentication_pages_spec.rb",
+		"/home/dan/sites/sample_app/spec/requests/static_pages_spec.rb",
+		"/home/dan/sites/sample_app/spec/controllers/relationships_controller.rb",
+		"/home/dan/sites/sample_app/app/views/relationships/create.js.erb",
+		"/home/dan/sites/sample_app/app/views/relationships/destroy.js.erb",
+		"/home/dan/sites/sample_app/app/controllers/microposts_controller.rb",
+		"/home/dan/sites/sample_app/app/models/micropost.rb",
+		"/home/dan/sites/sample_app/Gemfile",
+		"/home/dan/sites/sample_app/spec/models/relationship_spec.rb",
+		"/home/dan/sites/sample_app/app/models/relationship.rb",
+		"/home/dan/sites/sample_app/app/views/users/_follow_form.html.erb",
+		"/home/dan/sites/sample_app/config/routes.rb",
+		"/home/dan/sites/sample_app/app/views/layouts/_header.html.erb",
+		"/home/dan/sites/sample_app/app/controllers/users_controller.rb",
+		"/home/dan/sites/sample_app/app/assets/javascripts/micropost_form.js",
+		"/home/dan/sites/sample_app/app/views/users/show_follow.html.erb",
+		"/home/dan/sites/sample_app/lib/tasks/sample_data.rake",
+		"/home/dan/sites/sample_app/Rakefile",
+		"/home/dan/sites/sample_app/app/views/users/show.html.erb",
+		"/home/dan/sites/sample_app/app/assets/stylesheets/custom.css.scss",
+		"/home/dan/sites/sample_app/app/views/static_pages/_home_signedIn.html.erb",
+		"/home/dan/sites/sample_app/app/views/shared/_stats.html.erb",
+		"/home/dan/sites/sample_app/app/views/static_pages/home.html.erb",
+		"/home/dan/sites/sample_app/spec/factories.rb",
+		"/home/dan/sites/sample_app/spec/requests/micropost_pages_spec.rb",
+		"/home/dan/sites/sample_app/app/views/layouts/application.html.erb",
+		"/home/dan/sites/sample_app/app/views/shared/_feed_item.html.erb",
+		"/home/dan/sites/sample_app/db/migrate/20120503035207_create_relationships.rb",
+		"/home/dan/sites/sample_app/app/views/shared/_micropost_form.html.erb",
+		"/home/dan/sites/sample_app/app/views/static_pages/_home_nonSignedIn.html.erb",
+		"/home/dan/sites/sample_app/app/views/microposts/_micropost.html.erb",
+		"/home/dan/sites/sample_app/app/assets/images/rails.png",
+		"/home/dan/sites/sample_app/app/assets/javascripts/static_pages.js.coffee",
+		"/home/dan/sites/sample_app/app/views/shared/_user_info.html.erb",
+		"/home/dan/sites/sample_app/config/environments/production.rb",
+		"/home/dan/sites/sample_app/app/helpers/microposts_helper.rb",
+		"/home/dan/sites/sample_app/config/environments/test.rb",
+		"/home/dan/sites/sample_app/config/environments/development.rb",
+		"/home/dan/sites/sample_app/public/assets/manifest.yml",
+		"/home/dan/sites/sample_app/app/views/users/new.html.erb",
+		"/home/dan/sites/sample_app/app/views/shared/_error_messages.html.erb",
+		"/home/dan/sites/sample_app/app/views/users/edit.html.erb",
+		"/home/dan/sites/sample_app/app/controllers/sessions_controller.rb",
+		"/home/dan/sites/sample_app/app/views/shared/_feed.html.erb",
+		"/home/dan/sites/sample_app/spec/views/static_pages/home.html.erb_spec.rb",
+		"/home/dan/sites/sample_app/app/views/users/_fields.html.erb",
+		"/home/dan/sites/sample_app/app/views/users/_user.html.erb",
+		"/home/dan/sites/sample_app/app/helpers/users_helper.rb",
+		"/home/dan/sites/sample_app/app/helpers/sessions_helper.rb",
+		"/home/dan/sites/sample_app/db/migrate/20120423054046_create_microposts.rb",
+		"/home/dan/sites/sample_app/app/views/layouts/_footer.html.erb",
+		"/home/dan/sites/sample_app/app/controllers/application_controller.rb",
+		"/home/dan/sites/sample_app/spec/support/utilities.rb",
+		"/home/dan/sites/sample_app/db/migrate/20120418065014_add_admin_to_users.rb",
+		"/home/dan/sites/sample_app/app/views/users/index.html.erb",
+		"/home/dan/sites/sample_app/app/assets/stylesheets/users.css.scss",
+		"/home/dan/sites/sample_app/-e",
+		"/home/dan/sites/sample_app/app/views/sessions/new.html.erb",
+		"/home/dan/sites/sample_app/spec/spec_helper.rb",
+		"/home/dan/sites/sample_app/app/assets/javascripts/application.js",
+		"/etc/apt/sources.list",
+		"/home/dan/sites/sample_app/app/helpers/application_helper.rb",
+		"/home/dan/sites/sample_app/db/migrate/20120406212606_add_remember_token_to_users.rb",
+		"/home/dan/sites/sample_app/config/locales/en.yml",
+		"/home/dan/Desktop/foscam.html",
+		"/home/dan/.config/sublime-text-2/Packages/User/Preferences.sublime-settings",
+		"/home/dan/sites/sample_app/db/migrate/20120325200218_add_password_digest_to_users.rb",
+		"/home/dan/sites/sample_app/db/migrate/20120325193920_add_index_to_users_email.rb",
+		"/home/dan/sites/sample_app/spec/models/users_spec.rb",
+		"/home/dan/sites/sample_app/app/views/layouts/_shim.html.erb",
+		"/home/dan/sites/sample_app/.rspec",
+		"/home/dan/sites/sample_app/app/views/static_pages/about.html.erb",
+		"/home/dan/sites/sample_app/example_user.rb",
+		"/home/dan/sites/sample_app/Guardfile",
+		"/home/dan/sites/sample_app/spec/controllers/static_pages_controller_spec.rb",
+		"/home/dan/Gemfile",
+		"/home/dan/sites/sample_app/gemfile",
+		"/home/dan/sites/sample_app/.git/COMMIT_EDITMSG"
+	],
+	"find":
+	{
+		"height": 35.0
+	},
+	"find_in_files":
+	{
+		"height": 0.0,
+		"where_history":
+		[
+			"/home/dan/sites/SteamSaleTracker/config",
+			"/home/dan/sites/sample_app/app",
+			"/home/dan/sites/sample_app/spec",
+			"/home/dan/sites/sample_app/app",
+			"/home/dan/sites/sample_app/spec",
+			"/home/dan/sites/sample_app",
+			"/home/dan/sites/sample_app/spec",
+			"<open folders>",
+			""
+		]
+	},
+	"find_state":
+	{
+		"case_sensitive": false,
+		"find_history":
+		[
+			"password",
+			"protect_from_forgery",
+			"do",
+			"claime",
+			"id",
+			"claime",
+			"find_for_steam_oauth",
+			"steam",
+			"$(\"#follow_form\").html",
+			"micropost",
+			"sigin",
+			"before {",
+			"roor",
+			"descibe",
+			"non",
+			"followed_users",
+			"delete",
+			"micropost_form",
+			"user",
+			"have_content",
+			"flash",
+			"page",
+			"gravatar_for",
+			"whitelist",
+			"admin",
+			"admin_user",
+			"?",
+			"get",
+			"post",
+			"get",
+			"getg",
+			"post",
+			"if",
+			"pag",
+			"signed_in_user",
+			"store",
+			"() %>",
+			"sign in",
+			"visit",
+			"signed_in_user",
+			"vist",
+			"hartl",
+			"invalid",
+			"inval",
+			"Sign Up",
+			"Sign In",
+			"rail",
+			"    ",
+			"text::",
+			":text",
+			" =>",
+			"should",
+			"ME",
+			"singularize"
+		],
+		"highlight": true,
+		"in_selection": false,
+		"preserve_case": false,
+		"regex": false,
+		"replace_history":
+		[
+			"Sign up",
+			"Sign in",
+			"	",
+			"text:",
+			":"
+		],
+		"reverse": false,
+		"show_context": true,
+		"use_buffer2": true,
+		"whole_word": false,
+		"wrap": true
+	},
+	"groups":
+	[
+		{
+			"selected": 9,
+			"sheets":
+			[
+				{
+					"buffer": 0,
+					"file": "app/views/devise/sessions/new.html.erb",
+					"settings":
+					{
+						"buffer_size": 627,
+						"regions":
+						{
+						},
+						"selection":
+						[
+							[
+								577,
+								444
+							]
+						],
+						"settings":
+						{
+							"syntax": "Packages/Rails/HTML (Rails).tmLanguage"
+						},
+						"translation.x": 0.0,
+						"translation.y": 0.0,
+						"zoom_level": 1.0
+					},
+					"type": "text"
+				},
+				{
+					"buffer": 1,
+					"file": "app/views/shared/_steam_login.html.erb",
+					"settings":
+					{
+						"buffer_size": 133,
+						"regions":
+						{
+						},
+						"selection":
+						[
+							[
+								133,
+								133
+							]
+						],
+						"settings":
+						{
+							"syntax": "Packages/Rails/HTML (Rails).tmLanguage"
+						},
+						"translation.x": 0.0,
+						"translation.y": 0.0,
+						"zoom_level": 1.0
+					},
+					"type": "text"
+				},
+				{
+					"buffer": 2,
+					"file": "config/routes.rb",
+					"settings":
+					{
+						"buffer_size": 1977,
+						"regions":
+						{
+						},
+						"selection":
+						[
+							[
+								200,
+								200
+							]
+						],
+						"settings":
+						{
+							"syntax": "Packages/Ruby/Ruby.tmLanguage",
+							"tab_size": 2,
+							"translate_tabs_to_spaces": true
+						},
+						"translation.x": 0.0,
+						"translation.y": 0.0,
+						"zoom_level": 1.0
+					},
+					"type": "text"
+				},
+				{
+					"buffer": 3,
+					"file": "app/views/layouts/application.html.erb",
+					"settings":
+					{
+						"buffer_size": 614,
+						"regions":
+						{
+						},
+						"selection":
+						[
+							[
+								203,
+								203
+							]
+						],
+						"settings":
+						{
+							"syntax": "Packages/Rails/HTML (Rails).tmLanguage",
+							"translate_tabs_to_spaces": false
+						},
+						"translation.x": 0.0,
+						"translation.y": 0.0,
+						"zoom_level": 1.0
+					},
+					"type": "text"
+				},
+				{
+					"buffer": 4,
+					"file": "app/models/user.rb",
+					"settings":
+					{
+						"buffer_size": 2063,
+						"regions":
+						{
+						},
+						"selection":
+						[
+							[
+								310,
+								310
+							]
+						],
+						"settings":
+						{
+							"syntax": "Packages/Ruby/Ruby.tmLanguage",
+							"tab_size": 4,
+							"translate_tabs_to_spaces": true
+						},
+						"translation.x": 0.0,
+						"translation.y": 0.0,
+						"zoom_level": 1.0
+					},
+					"type": "text"
+				},
+				{
+					"buffer": 5,
+					"file": "app/controllers/users/omniauth_callbacks_controller.rb",
+					"settings":
+					{
+						"buffer_size": 1437,
+						"regions":
+						{
+						},
+						"selection":
+						[
+							[
+								0,
+								1437
+							]
+						],
+						"settings":
+						{
+							"auto_name": "class Users::OmniauthCallbacksController < Devise:",
+							"syntax": "Packages/Ruby/Ruby.tmLanguage",
+							"tab_size": 2,
+							"translate_tabs_to_spaces": true
+						},
+						"translation.x": 0.0,
+						"translation.y": 0.0,
+						"zoom_level": 1.0
+					},
+					"type": "text"
+				},
+				{
+					"buffer": 6,
+					"file": "app/controllers/users/users_controller.rb",
+					"settings":
+					{
+						"buffer_size": 172,
+						"regions":
+						{
+						},
+						"selection":
+						[
+							[
+								80,
+								80
+							]
+						],
+						"settings":
+						{
+							"auto_name": "s",
+							"syntax": "Packages/Ruby/Ruby.tmLanguage"
+						},
+						"translation.x": 0.0,
+						"translation.y": 0.0,
+						"zoom_level": 1.0
+					},
+					"type": "text"
+				},
+				{
+					"buffer": 7,
+					"file": "app/views/devise/registrations/confirm_registration.html.erb",
+					"settings":
+					{
+						"buffer_size": 367,
+						"regions":
+						{
+						},
+						"selection":
+						[
+							[
+								218,
+								218
+							]
+						],
+						"settings":
+						{
+							"auto_name": "s",
+							"syntax": "Packages/Rails/HTML (Rails).tmLanguage"
+						},
+						"translation.x": 0.0,
+						"translation.y": 0.0,
+						"zoom_level": 1.0
+					},
+					"type": "text"
+				},
+				{
+					"buffer": 8,
+					"file": "app/views/layouts/_header.html.erb",
+					"settings":
+					{
+						"buffer_size": 34,
+						"regions":
+						{
+						},
+						"selection":
+						[
+							[
+								30,
+								30
+							]
+						],
+						"settings":
+						{
+							"syntax": "Packages/Rails/HTML (Rails).tmLanguage"
+						},
+						"translation.x": 0.0,
+						"translation.y": 0.0,
+						"zoom_level": 1.0
+					},
+					"type": "text"
+				},
+				{
+					"buffer": 9,
+					"file": "app/views/static_pages/home.html.erb",
+					"settings":
+					{
+						"buffer_size": 9,
+						"regions":
+						{
+						},
+						"selection":
+						[
+							[
+								9,
+								9
+							]
+						],
+						"settings":
+						{
+							"syntax": "Packages/Rails/HTML (Rails).tmLanguage"
+						},
+						"translation.x": 0.0,
+						"translation.y": 0.0,
+						"zoom_level": 1.0
+					},
+					"type": "text"
+				}
+			]
+		}
+	],
+	"incremental_find":
+	{
+		"height": 0.0
+	},
+	"input":
+	{
+		"height": 33.0
+	},
+	"layout":
+	{
+		"cells":
+		[
+			[
+				0,
+				0,
+				1,
+				1
+			]
+		],
+		"cols":
+		[
+			0.0,
+			1.0
+		],
+		"rows":
+		[
+			0.0,
+			1.0
+		]
+	},
+	"menu_visible": true,
+	"replace":
+	{
+		"height": 64.0
+	},
+	"save_all_on_build": true,
+	"select_file":
+	{
+		"height": 0.0,
+		"selected_items":
+		[
+			[
+				"hartl",
+				"app/views/layouts/_header.html.erb"
+			]
+		],
+		"width": 0.0
+	},
+	"select_project":
+	{
+		"height": 0.0,
+		"selected_items":
+		[
+		],
+		"width": 0.0
+	},
+	"show_minimap": true,
+	"show_open_files": false,
+	"show_tabs": true,
+	"side_bar_visible": true,
+	"side_bar_width": 150.0,
+	"status_bar_visible": true
+}

@@ -1,18 +1,18 @@
-<h2>Sign up</h2>
+<%= provide(:title, 'Sign up') %>
+<h2>Finish Sign Up</h2>
 
-<%= form_for(resource, :as => resource_name, :url => registration_path(resource_name)) do |f| %>
-  <%= devise_error_messages! %>
+<div class="row">
+	<div class="span6 offset3">
 
-  <div><%= f.label :email %><br />
-  <%= f.email_field :email %></div>
+		<p>We'll use your email address to send you sale notifications for the games you track. We won't give it out. It stays with us. Promise.</p>
 
-  <div><%= f.label :password %><br />
-  <%= f.password_field :password %></div>
+		<%= form_for(resource, as: resource_name, url: registration_path(resource_name)) do |f| %>
+			<%= devise_error_messages! %>
 
-  <div><%= f.label :password_confirmation %><br />
-  <%= f.password_field :password_confirmation %></div>
+			<%= f.label :email %>
+			<%= f.email_field :email %>
 
-  <div><%= f.submit "Sign up" %></div>
-<% end %>
-
-<%= render :partial => "devise/shared/links" %>
+			<%= f.submit "Register and start getting notifications!", :class => "btn btn-large btn-primary" %>
+		<% end %>
+	</div>
+</div>
