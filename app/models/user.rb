@@ -13,7 +13,9 @@ class User < ActiveRecord::Base
     validates :email, presence: true, format: { with: VALID_EMAIL_REGEX }, uniqueness: {case_sensitive: false}
 
     #has_and_belongs_to_many :games
-    has_many :games
+    #has_many :games
+    has_many :gamewishes
+    has_many :games, through: :gamewishes
 
     
 

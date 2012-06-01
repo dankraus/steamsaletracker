@@ -1,5 +1,5 @@
 class DeviseCreateUsers < ActiveRecord::Migration
-  def change
+  def up
     create_table(:users) do |t|
       ## Database authenticatable
       t.string :email,              :null => false, :default => ""
@@ -33,14 +33,28 @@ class DeviseCreateUsers < ActiveRecord::Migration
       ## Token authenticatable
       # t.string :authentication_token
 
+      t.integer :steam_id, :unique => true
+      t.string  :name
+      t.string  :persona_name
+      t.string  :steam_profile_url
+      t.string  :avatar
+      t.string  :avatar_medium
+      t.string  :avatar_full
+      t.string  :country
+
 
       t.timestamps
     end
 
     add_index :users, :email,                :unique => true
     add_index :users, :reset_password_token, :unique => true
+    add_index :users, :steam_id
     # add_index :users, :confirmation_token,   :unique => true
     # add_index :users, :unlock_token,         :unique => true
     # add_index :users, :authentication_token, :unique => true
+  end
+
+  def down
+     drop_table :users
   end
 end

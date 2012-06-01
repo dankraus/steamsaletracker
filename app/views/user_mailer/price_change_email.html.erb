@@ -1,0 +1,14 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta content="text/html; charset=UTF-8" http-equiv="Content-Type" />
+  </head>
+  <body>
+    <h2>Hi <%= @user.name %>,</h2>
+    <h1>Steam Price Drop Alert for <%= game.name %></h1>
+    <p>
+      We found a price change today for this game. The price was originally <%= game.last_price %> but is now on sale or has dropped to <%= game.price %>.
+    </p>
+    <p>Thanks for joining and have a great day!</p>
+  </body>
+</html>
