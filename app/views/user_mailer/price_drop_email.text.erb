@@ -1,0 +1,8 @@
+Hi <%= @user.name %>,
+Steam Price Drop Alert for <%= @game.name %>
+===============================================
+We found a price change today for this game. The price was originally <%= number_to_currency(@game.last_price) %> but is now on sale or has dropped to <%= number_to_currency(@game.price) %>.
+
+Purchase it here at: <%= @game.steam_url %>
+
+Thanks and have fun!

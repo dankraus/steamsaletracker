@@ -67,9 +67,9 @@ namespace :games do
 		games.each do |game|
 			#notify each user who has it in their wishlist
 			game.users.each do |user|
+				# puts user.email
+				# puts "Emailing #{user.email} for #{game.name}"
 				UserMailer.price_drop_email(user, game).deliver
-				puts user.email
-				puts "Emailing #{user.email} for #{game.name}"
 			end
 		end
 	end

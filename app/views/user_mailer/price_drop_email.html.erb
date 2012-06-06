@@ -1,0 +1,17 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta content="text/html; charset=UTF-8" http-equiv="Content-Type" />
+  </head>
+  <body>
+    <h2>Hi <%= @user.name %>,</h2>
+    <h1>Steam Price Drop Alert for <%= link_to(@game.name, @game.steam_url) %></h1>
+    <p>
+      We found a price change today for this game. The price was originally <%= number_to_currency(@game.last_price) %> but is now on sale or has dropped to <%= number_to_currency(@game.price) %>.
+    </p>
+
+    <p><%= link_to("Buy it here!", @game.steam_url) %><p>
+
+    <p>Thanks for joining and have fun!</p>
+  </body>
+</html>
