@@ -13,6 +13,8 @@ gem 'devise'
 gem 'omniauth-openid'
 gem 'omniauth-steam'
 
+gem 'nokogiri'
+
 group :production do
   gem 'pg'
 end
