@@ -33,7 +33,7 @@ class DeviseCreateUsers < ActiveRecord::Migration
       ## Token authenticatable
       # t.string :authentication_token
 
-      t.integer :steam_id, :unique => true
+      t.string  :steam_id, :unique => true
       t.string  :name
       t.string  :persona_name
       t.string  :steam_profile_url
