@@ -26,7 +26,7 @@ class User < ActiveRecord::Base
 
     def self.get_steam_user_info(access_token)
         steam_id = access_token["uid"].split("/").last
-        steam_api_key = "4C648E197A23479682AA2D4C21DE2BBA"
+        steam_api_key = ENV['SteamAPIKey']
         steam_user_profile_uri = URI.parse("http://api.steampowered.com/ISteamUser/GetPlayerSummaries/v0001/?key=#{steam_api_key}&steamids=#{steam_id}")
         raw_info ||= steam_api_key ? MultiJson.decode(Net::HTTP.get(steam_user_profile_uri)) : {}
         player ||= raw_info["response"]["players"]["player"].first

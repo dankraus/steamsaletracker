@@ -1,5 +1,5 @@
 class UserMailer < ActionMailer::Base
-  default from: "alert@steamtracker.com"
+  default from: "alert@steamsaletracker.com"
 
   def price_drop_email(user, game)
     @user = user
