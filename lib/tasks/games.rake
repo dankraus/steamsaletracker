@@ -54,7 +54,7 @@ namespace :games do
 
 			game.last_price = game.price
 			game.price = current_price
-			game.price_last_checked_at = Time.new.to_i
+			game.price_last_checked_at = Time.new
 
 			game.save
 		end
