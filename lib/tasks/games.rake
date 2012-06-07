@@ -62,7 +62,7 @@ namespace :games do
 
 	desc "Notify users of games with price decrease"
 	task :notify_users => :environment do
-		games = Game.where("price_last_checked_at > :time AND price < last_price", time: Time.now - 24.hours.ago)
+		games = Game.where("price < last_price")
 		#for each game that had a price drop...
 		games.each do |game|
 			#notify each user who has it in their wishlist
