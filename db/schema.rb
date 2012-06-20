@@ -11,7 +11,7 @@
 #
 # It's strongly recommended to check this file into your version control system.
 
-ActiveRecord::Schema.define(:version => 20120601045943) do
+ActiveRecord::Schema.define(:version => 20120609231201) do
 
   create_table "games", :force => true do |t|
     t.string   "name"
@@ -41,7 +41,7 @@ ActiveRecord::Schema.define(:version => 20120601045943) do
     t.datetime "last_sign_in_at"
     t.string   "current_sign_in_ip"
     t.string   "last_sign_in_ip"
-    t.integer  "steam_id"
+    t.string   "steam_id"
     t.string   "name"
     t.string   "persona_name"
     t.string   "steam_profile_url"
@@ -51,6 +51,7 @@ ActiveRecord::Schema.define(:version => 20120601045943) do
     t.string   "country"
     t.datetime "created_at",                             :null => false
     t.datetime "updated_at",                             :null => false
+    t.string   "phone"
   end
 
   add_index "users", ["email"], :name => "index_users_on_email", :unique => true

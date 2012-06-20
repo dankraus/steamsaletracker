@@ -7,7 +7,8 @@ class User < ActiveRecord::Base
 
     # Setup accessible (or protected) attributes for your model
     attr_accessible :password, :steam_id, :name, :persona_name, :email, :remember_me,
-                    :steam_profile_url, :avatar, :avatar_medium, :avatar_full, :country
+                    :steam_profile_url, :avatar, :avatar_medium, :avatar_full, :country,
+                    :phone
 
     VALID_EMAIL_REGEX = /\A[\w+\-.]+@[a-z\d\-.]+\.[a-z]+\z/i
     validates :email, presence: true, format: { with: VALID_EMAIL_REGEX }, uniqueness: {case_sensitive: false}

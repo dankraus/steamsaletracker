@@ -8,16 +8,16 @@ gem 'rails', '3.2.3'
 gem "jquery-rails"
 gem 'bootstrap-sass', '2.0.0'
 
+gem 'pg'
+
 gem 'devise'
 # gem 'omniauth-facebook'
 gem 'omniauth-openid'
 gem 'omniauth-steam'
 
 gem 'nokogiri'
+gem 'twilio-ruby'
 
-group :production do
-  gem 'pg'
-end
 
 # Gems used only for assets and not required
 # in production environments by default.
@@ -28,7 +28,7 @@ group :assets do
 end
 
 group :development, :test do
-  gem 'sqlite3'
+  #gem 'sqlite3'
   gem "rspec-rails"
   gem 'spork', '0.9.0'
 end

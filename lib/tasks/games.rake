@@ -2,7 +2,7 @@ require 'rubygems'
 require 'nokogiri'
 require 'open-uri'
 
-steam_age_cookie = "Steam_Language=english; browserid=5723971140937457809; lastagecheckage=5-January-1956; store_newreleases_filter_dlc=tab_filtered_dlc_content; steamLogin=76561197972129526%7C%7C52E0B9BA72DD19E5E04953442938A99F04D7EDA0; steamCC_24_216_69_23=US; recentapps=%7B%22209690%22%3A1338251723%2C%2257300%22%3A1338177476%2C%22207610%22%3A1338056988%7D; timezoneOffset=-18000,0"
+steam_age_cookie = ""
 
 
 namespace :games do
@@ -43,13 +43,30 @@ namespace :games do
 		games = Game.all
 		games.each do |game|
 			game_doc = Nokogiri::HTML(open("#{game.steam_url}", "Cookie" => steam_age_cookie))
-			retail_price = game_doc.css(".game_purchase_price").text[/[0-9\.]+/]
+			
+			#check to see if we hit an age gate
+			if game_doc.css("#agegate_disclaim").text != ""
+				#ok, age restriction. Submit the age form with a fake age.
+				age_gate_url = game_doc.css("#agegate_box form").attr('action')
+				post_res = Net::HTTP.post_form(URI.parse(age_gate_url), { snr: 	  "1_agecheck_agecheck__age-gate",
+																		  ageDay:   "1",
+																		  ageMonth: "January",
+																		  ageYear:  "1987"
+				 														} )
+				#rebuild the cookie from the age POST
+				steam_age_cookie = post_res.to_hash['set-cookie'].collect{|ea|ea[/^.*?;/]}.join
+				
+				#now that we have the cookie, make the request with the cookie
+				game_doc = Nokogiri::HTML(open(game['steam_url'], "Cookie" => steam_age_cookie))
+			end	
+
+			retail_price = game_doc.css(".game_purchase_price")[0].text[/[0-9\.]+/]
 
 			if retail_price
 				current_price = retail_price
 			else
 				#on sale price
-				current_price = game_doc.css(".discount_final_price").text[/[0-9\.]+/]	
+				current_price = game_doc.css(".discount_final_price")[0].text[/[0-9\.]+/]	
 			end
 
 			game.last_price = game.price
