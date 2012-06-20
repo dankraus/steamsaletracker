@@ -60,17 +60,21 @@ namespace :games do
 				game_doc = Nokogiri::HTML(open(game['steam_url'], "Cookie" => steam_age_cookie))
 			end	
 
-			retail_price = game_doc.css(".game_purchase_price")[0].text[/[0-9\.]+/]
+			if game_doc.css(".game_purchase_price").size > 0
 
-			if retail_price
-				current_price = retail_price
-			else
-				#on sale price
-				current_price = game_doc.css(".discount_final_price")[0].text[/[0-9\.]+/]	
+				retail_price = game_doc.css(".game_purchase_price")[0].text[/[0-9\.]+/]
+
+				if retail_price
+					current_price = retail_price
+				else
+					#on sale price
+					current_price = game_doc.css(".discount_final_price")[0].text[/[0-9\.]+/]	
+				end
+
+				game.last_price = game.price
+				game.price = current_price
 			end
 
-			game.last_price = game.price
-			game.price = current_price
 			game.price_last_checked_at = Time.new
 
 			game.save
