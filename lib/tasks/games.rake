@@ -14,11 +14,10 @@ namespace :games do
 		users.each do |user|
 			#recreate the wishlist every time. We do this so it always matches the steam wishlist only.
 			user.games = []
-			user.save
 			
 			wishlist_url = user.steam_profile_url + 'wishlist'
 
-			wishlist_doc = Nokogiri::HTML(open("#{wishlist_url}", "Cookie" => steam_age_cookie))
+			wishlist_doc = Nokogiri::HTML(open("#{wishlist_url}"))
 			games = wishlist_doc.css(".wishlistRow")
 			
 			#games in wishlist
@@ -88,8 +87,7 @@ namespace :games do
 		games.each do |game|
 			#notify each user who has it in their wishlist
 			game.users.each do |user|
-				# puts user.email
-				# puts "Emailing #{user.email} for #{game.name}"
+				puts "Emailing #{user.email} for #{game.name}"
 				UserMailer.price_drop_email(user, game).deliver
 			end
 		end
