@@ -10,8 +10,8 @@ class Users::OmniauthCallbacksController < Devise::OmniauthCallbacksController
       sign_in_and_redirect @user, :event => :authentication
     else
       session["devise.steam"] = User.get_steam_user_info(request.env["omniauth.auth"])
-      redirect_to new_user_registration_url
-    end
+      redirect_to end
+    new_user_registration_url
   end
 
   def failure

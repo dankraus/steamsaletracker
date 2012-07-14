@@ -4,6 +4,10 @@
 		"selected_items":
 		[
 			[
+				"stea",
+				"steam_age_cookie"
+			],
+			[
 				"ava",
 				"avatarfull"
 			],
@@ -104,34 +108,10 @@
 	"buffers":
 	[
 		{
-			"file": "app/views/devise/sessions/new.html.erb",
+			"file": "Gemfile",
 			"settings":
 			{
-				"buffer_size": 158,
-				"line_ending": "Unix"
-			}
-		},
-		{
-			"file": "app/views/shared/_steam_login.html.erb",
-			"settings":
-			{
-				"buffer_size": 0,
-				"line_ending": "Unix"
-			}
-		},
-		{
-			"file": "config/routes.rb",
-			"settings":
-			{
-				"buffer_size": 2141,
-				"line_ending": "Unix"
-			}
-		},
-		{
-			"file": "app/views/layouts/application.html.erb",
-			"settings":
-			{
-				"buffer_size": 537,
+				"buffer_size": 1040,
 				"line_ending": "Unix"
 			}
 		},
@@ -139,7 +119,71 @@
 			"file": "app/models/user.rb",
 			"settings":
 			{
-				"buffer_size": 2141,
+				"buffer_size": 2169,
+				"line_ending": "Unix"
+			}
+		},
+		{
+			"file": "app/views/layouts/application.html.erb",
+			"settings":
+			{
+				"buffer_size": 514,
+				"line_ending": "Unix"
+			}
+		},
+		{
+			"file": "config/heroku_env.rb",
+			"settings":
+			{
+				"buffer_size": 326,
+				"line_ending": "Unix"
+			}
+		},
+		{
+			"file": "app/views/static_pages/home.html.erb",
+			"settings":
+			{
+				"buffer_size": 285,
+				"line_ending": "Unix"
+			}
+		},
+		{
+			"file": "app/views/devise/registrations/confirm_registration.html.erb",
+			"settings":
+			{
+				"buffer_size": 653,
+				"line_ending": "Unix"
+			}
+		},
+		{
+			"file": "app/controllers/users/omniauth_callbacks_controller.rb",
+			"settings":
+			{
+				"buffer_size": 745,
+				"line_ending": "Unix"
+			}
+		},
+		{
+			"file": "app/views/devise/registrations/failed_auth.html.erb",
+			"settings":
+			{
+				"buffer_size": 95,
+				"line_ending": "Unix"
+			}
+		},
+		{
+			"file": "lib/tasks/games.rake",
+			"settings":
+			{
+				"buffer_size": 2775,
+				"line_ending": "Unix"
+			}
+		},
+		{
+			"file": "app/views/user_mailer/price_drop_email.text.erb",
+			"settings":
+			{
+				"buffer_size": 468,
 				"line_ending": "Unix"
 			}
 		},
@@ -152,29 +196,10 @@
 			}
 		},
 		{
-			"contents": "ENV['SteamAPIKey'] 		 = '4C648E197A23479682AA2D4C21DE2BBA'\n\nENV['SENDGRID_USERNAME'] = 'app5033109@heroku.com'\nENV['SENDGRID_PASSWORD'] = 'xcgvuvvq'\n\n",
-			"file": "config/heroku_env.rb",
-			"file_size": 149,
-			"file_write_time": 1339029958000000,
+			"file": "config/routes.rb",
 			"settings":
 			{
-				"buffer_size": 150,
-				"line_ending": "Unix"
-			}
-		},
-		{
-			"file": "app/mailers/user_mailer.rb",
-			"settings":
-			{
-				"buffer_size": 264,
-				"line_ending": "Unix"
-			}
-		},
-		{
-			"file": "lib/tasks/games.rake",
-			"settings":
-			{
-				"buffer_size": 2375,
+				"buffer_size": 2141,
 				"line_ending": "Unix"
 			}
 		}
@@ -215,13 +240,26 @@
 	},
 	"file_history":
 	[
+		"/home/dan/sites/SteamSaleTracker/spec/controllers/static_pages_controller_spec.rb",
+		"/home/dan/sites/SteamSaleTracker/app/views/user_mailer/price_drop_email.html.erb",
+		"/home/dan/sites/SteamSaleTracker/test.rb",
+		"/home/dan/sites/SteamSaleTracker/lib/tasks/games.rake",
+		"/home/dan/sites/SteamSaleTracker/config/environment.rb",
+		"/home/dan/sites/SteamSaleTracker/config/database.yml",
+		"/home/dan/sites/SteamSaleTracker/db/migrate/20120609231201_add_phone_to_users.rb",
+		"/home/dan/sites/SteamSaleTracker/db/migrate/20120609231026_add_phone_to_users.rb",
+		"/home/dan/sites/SteamSaleTracker/config/routes.rb",
+		"/home/dan/sites/SteamSaleTracker/app/views/devise/sessions/new.html.erb",
+		"/home/dan/sites/SteamSaleTracker/app/views/shared/_steam_login.html.erb",
+		"/home/dan/sites/SteamSaleTracker/app/views/layouts/application.html.erb",
+		"/home/dan/sites/SteamSaleTracker/config/heroku_env.rb",
 		"/home/dan/sites/SteamSaleTracker/.gitignore",
+		"/home/dan/sites/SteamSaleTracker/app/mailers/user_mailer.rb",
 		"/home/dan/sites/SteamSaleTracker/config/setup_mail.rb",
 		"/home/dan/sites/SteamSaleTracker/app/controllers/users/omniauth_callbacks_controller.rb",
 		"/home/dan/sites/SteamSaleTracker/app/controllers/users/users_controller.rb",
 		"/home/dan/sites/SteamSaleTracker/app/views/devise/registrations/confirm_registration.html.erb",
 		"/home/dan/sites/SteamSaleTracker/app/views/layouts/_header.html.erb",
-		"/home/dan/sites/SteamSaleTracker/lib/tasks/games.rake",
 		"/home/dan/sites/SteamSaleTracker/Gemfile",
 		"/home/dan/sites/SteamSaleTracker/db/migrate/20120521054430_devise_create_users.rb",
 		"/home/dan/sites/SteamSaleTracker/app/views/static_pages/home.html.erb",
@@ -233,7 +271,6 @@
 		"/home/dan/sites/SteamSaleTracker/db/migrate/20120524041637_add_steam_data_to_users.rb",
 		"/home/dan/sites/SteamSaleTracker/app/controllers/application_controller.rb",
 		"/steam.rb",
-		"/home/dan/sites/SteamSaleTracker/app/views/layouts/application.html.erb",
 		"/home/dan/.config/sublime-text-2/Packages/User/Default (Linux).sublime-keymap",
 		"/home/dan/.config/sublime-text-2/Packages/User/Package Control.sublime-settings",
 		"/home/dan/.config/sublime-text-2/Packages/Default/Default (Linux).sublime-keymap",
@@ -243,7 +280,6 @@
 		"/home/dan/sites/SteamSaleTracker/app/helpers/application_helper.rb",
 		"/home/dan/sites/SteamSaleTracker/app/views/layouts/_footer.html.erb",
 		"/home/dan/sites/SteamSaleTracker/app/views/layouts/_shim.html.erb",
-		"/home/dan/sites/SteamSaleTracker/config/routes.rb",
 		"/home/dan/sites/SteamSaleTracker/config/environments/development.rb",
 		"/home/dan/sites/sample_app/config/application.rb",
 		"/home/dan/sites/sample_app/app/models/user.rb",
@@ -342,6 +378,7 @@
 		"height": 0.0,
 		"where_history":
 		[
+			"/home/dan/sites/SteamSaleTracker",
 			"/home/dan/sites/SteamSaleTracker/config",
 			"/home/dan/sites/sample_app/app",
 			"/home/dan/sites/sample_app/spec",
@@ -358,6 +395,8 @@
 		"case_sensitive": false,
 		"find_history":
 		[
+			"heroku_env.rb",
+			"24",
 			"password",
 			"protect_from_forgery",
 			"do",
@@ -434,75 +473,23 @@
 	"groups":
 	[
 		{
-			"selected": 8,
+			"selected": 1,
 			"sheets":
 			[
 				{
 					"buffer": 0,
-					"file": "app/views/devise/sessions/new.html.erb",
+					"file": "Gemfile",
 					"settings":
 					{
-						"buffer_size": 158,
+						"buffer_size": 1040,
 						"regions":
 						{
 						},
 						"selection":
 						[
 							[
-								0,
-								0
-							]
-						],
-						"settings":
-						{
-							"syntax": "Packages/Rails/HTML (Rails).tmLanguage"
-						},
-						"translation.x": 0.0,
-						"translation.y": 0.0,
-						"zoom_level": 1.0
-					},
-					"type": "text"
-				},
-				{
-					"buffer": 1,
-					"file": "app/views/shared/_steam_login.html.erb",
-					"settings":
-					{
-						"buffer_size": 0,
-						"regions":
-						{
-						},
-						"selection":
-						[
-							[
-								0,
-								0
-							]
-						],
-						"settings":
-						{
-							"syntax": "Packages/Rails/HTML (Rails).tmLanguage"
-						},
-						"translation.x": 0.0,
-						"translation.y": 0.0,
-						"zoom_level": 1.0
-					},
-					"type": "text"
-				},
-				{
-					"buffer": 2,
-					"file": "config/routes.rb",
-					"settings":
-					{
-						"buffer_size": 2141,
-						"regions":
-						{
-						},
-						"selection":
-						[
-							[
-								0,
-								0
+								712,
+								712
 							]
 						],
 						"settings":
@@ -518,46 +505,19 @@
 					"type": "text"
 				},
 				{
-					"buffer": 3,
-					"file": "app/views/layouts/application.html.erb",
-					"settings":
-					{
-						"buffer_size": 537,
-						"regions":
-						{
-						},
-						"selection":
-						[
-							[
-								490,
-								490
-							]
-						],
-						"settings":
-						{
-							"syntax": "Packages/Rails/HTML (Rails).tmLanguage",
-							"translate_tabs_to_spaces": false
-						},
-						"translation.x": 0.0,
-						"translation.y": 0.0,
-						"zoom_level": 1.0
-					},
-					"type": "text"
-				},
-				{
-					"buffer": 4,
+					"buffer": 1,
 					"file": "app/models/user.rb",
 					"settings":
 					{
-						"buffer_size": 2141,
+						"buffer_size": 2169,
 						"regions":
 						{
 						},
 						"selection":
 						[
 							[
-								1166,
-								1166
+								330,
+								330
 							]
 						],
 						"settings":
@@ -573,24 +533,103 @@
 					"type": "text"
 				},
 				{
-					"buffer": 5,
-					"file": "config/environment.rb",
+					"buffer": 2,
+					"file": "app/views/layouts/application.html.erb",
 					"settings":
 					{
-						"buffer_size": 643,
+						"buffer_size": 514,
 						"regions":
 						{
 						},
 						"selection":
 						[
 							[
-								582,
-								582
+								307,
+								331
+							]
+						],
+						"settings":
+						{
+							"syntax": "Packages/Rails/HTML (Rails).tmLanguage",
+							"translate_tabs_to_spaces": false
+						},
+						"translation.x": 0.0,
+						"translation.y": 17.0,
+						"zoom_level": 1.0
+					},
+					"type": "text"
+				},
+				{
+					"buffer": 3,
+					"file": "config/heroku_env.rb",
+					"settings":
+					{
+						"buffer_size": 326,
+						"regions":
+						{
+						},
+						"selection":
+						[
+							[
+								0,
+								326
 							]
 						],
 						"settings":
 						{
 							"syntax": "Packages/Ruby/Ruby.tmLanguage"
+						},
+						"translation.x": 0.0,
+						"translation.y": 0.0,
+						"zoom_level": 1.0
+					},
+					"type": "text"
+				},
+				{
+					"buffer": 4,
+					"file": "app/views/static_pages/home.html.erb",
+					"settings":
+					{
+						"buffer_size": 285,
+						"regions":
+						{
+						},
+						"selection":
+						[
+							[
+								278,
+								278
+							]
+						],
+						"settings":
+						{
+							"syntax": "Packages/Rails/HTML (Rails).tmLanguage"
+						},
+						"translation.x": 0.0,
+						"translation.y": 0.0,
+						"zoom_level": 1.0
+					},
+					"type": "text"
+				},
+				{
+					"buffer": 5,
+					"file": "app/views/devise/registrations/confirm_registration.html.erb",
+					"settings":
+					{
+						"buffer_size": 653,
+						"regions":
+						{
+						},
+						"selection":
+						[
+							[
+								527,
+								527
+							]
+						],
+						"settings":
+						{
+							"syntax": "Packages/Rails/HTML (Rails).tmLanguage"
 						},
 						"translation.x": 0.0,
 						"translation.y": 0.0,
@@ -600,23 +639,25 @@
 				},
 				{
 					"buffer": 6,
-					"file": "config/heroku_env.rb",
+					"file": "app/controllers/users/omniauth_callbacks_controller.rb",
 					"settings":
 					{
-						"buffer_size": 150,
+						"buffer_size": 745,
 						"regions":
 						{
 						},
 						"selection":
 						[
 							[
-								84,
-								60
+								584,
+								584
 							]
 						],
 						"settings":
 						{
-							"syntax": "Packages/Ruby/Ruby.tmLanguage"
+							"syntax": "Packages/Ruby/Ruby.tmLanguage",
+							"tab_size": 2,
+							"translate_tabs_to_spaces": true
 						},
 						"translation.x": 0.0,
 						"translation.y": 0.0,
@@ -626,23 +667,23 @@
 				},
 				{
 					"buffer": 7,
-					"file": "app/mailers/user_mailer.rb",
+					"file": "app/views/devise/registrations/failed_auth.html.erb",
 					"settings":
 					{
-						"buffer_size": 264,
+						"buffer_size": 95,
 						"regions":
 						{
 						},
 						"selection":
 						[
 							[
-								136,
-								136
+								95,
+								95
 							]
 						],
 						"settings":
 						{
-							"syntax": "Packages/Ruby/Ruby.tmLanguage"
+							"syntax": "Packages/Rails/HTML (Rails).tmLanguage"
 						},
 						"translation.x": 0.0,
 						"translation.y": 0.0,
@@ -655,15 +696,15 @@
 					"file": "lib/tasks/games.rake",
 					"settings":
 					{
-						"buffer_size": 2375,
+						"buffer_size": 2775,
 						"regions":
 						{
 						},
 						"selection":
 						[
 							[
-								1920,
-								1920
+								283,
+								283
 							]
 						],
 						"settings":
@@ -672,7 +713,87 @@
 							"translate_tabs_to_spaces": false
 						},
 						"translation.x": 0.0,
-						"translation.y": 561.0,
+						"translation.y": 221.0,
+						"zoom_level": 1.0
+					},
+					"type": "text"
+				},
+				{
+					"buffer": 9,
+					"file": "app/views/user_mailer/price_drop_email.text.erb",
+					"settings":
+					{
+						"buffer_size": 468,
+						"regions":
+						{
+						},
+						"selection":
+						[
+							[
+								468,
+								468
+							]
+						],
+						"settings":
+						{
+							"syntax": "Packages/Rails/HTML (Rails).tmLanguage"
+						},
+						"translation.x": 0.0,
+						"translation.y": 0.0,
+						"zoom_level": 1.0
+					},
+					"type": "text"
+				},
+				{
+					"buffer": 10,
+					"file": "config/environment.rb",
+					"settings":
+					{
+						"buffer_size": 643,
+						"regions":
+						{
+						},
+						"selection":
+						[
+							[
+								447,
+								447
+							]
+						],
+						"settings":
+						{
+							"syntax": "Packages/Ruby/Ruby.tmLanguage"
+						},
+						"translation.x": 0.0,
+						"translation.y": 68.0,
+						"zoom_level": 1.0
+					},
+					"type": "text"
+				},
+				{
+					"buffer": 11,
+					"file": "config/routes.rb",
+					"settings":
+					{
+						"buffer_size": 2141,
+						"regions":
+						{
+						},
+						"selection":
+						[
+							[
+								1013,
+								1013
+							]
+						],
+						"settings":
+						{
+							"syntax": "Packages/Ruby/Ruby.tmLanguage",
+							"tab_size": 2,
+							"translate_tabs_to_spaces": true
+						},
+						"translation.x": 0.0,
+						"translation.y": 0.0,
 						"zoom_level": 1.0
 					},
 					"type": "text"
